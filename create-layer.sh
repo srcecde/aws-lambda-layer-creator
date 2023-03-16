@@ -18,7 +18,7 @@ host_temp_dir="$(mktemp -d)"
 
 support_python_runtime=("python3.6,python3.7,python3.8,python3.9")
 
-support_node_runtime=("nodejs10.x,nodejs12.x,nodejs14.x")
+support_node_runtime=("nodejs10.x,nodejs12.x,nodejs14.x,nodejs16.x,nodejs18.x")
 
 if [[ "${support_node_runtime[*]}" =~ "${runtime}" ]]; then
     
