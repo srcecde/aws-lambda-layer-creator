@@ -53,6 +53,8 @@ create-layer layer-name nodejs-runtime package1 [package2,…]
 - nodejs10.x
 - nodejs12.x
 - nodejs14.x
+- nodejs16.x
+- nodejs18.x
 
 #### Example
 ```bash
