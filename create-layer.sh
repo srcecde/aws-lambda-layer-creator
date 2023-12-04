@@ -16,7 +16,7 @@ echo "================================="
 
 host_temp_dir="$(mktemp -d)"
 
-support_python_runtime=("python3.6,python3.7,python3.8,python3.9,python3.11")
+support_python_runtime=("python3.6,python3.7,python3.8,python3.9,python3.10,python3.11")
 
 support_node_runtime=("nodejs10.x,nodejs12.x,nodejs14.x,nodejs16.x,nodejs18.x")
 
