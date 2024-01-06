@@ -36,10 +36,11 @@ create-layer layer-name python-runtime package1 [package2,…]
 - python3.9
 - python3.10
 - python3.11
+- python3.12
 
 #### Example
 ```bash
-create-layer pandas-numpy-layer python3.9 numpy pandas
+create-layer pandas-numpy-layer python3.12 numpy pandas
 ```
 ### Node JS
 To create the layer the command should be in the specified format.
@@ -57,6 +58,7 @@ create-layer layer-name nodejs-runtime package1 [package2,…]
 - nodejs14.x
 - nodejs16.x
 - nodejs18.x
+- nodejs20.x
 
 #### Example
 ```bash
